@@ -33,9 +33,5 @@ object csvtomysql {
       .write
       .mode(SaveMode.Append)
       .jdbc("jdbc:mysql://182.10.1.173:3306/gz_cloud_resources?useUnicode=true&characterEncoding=utf-8&rewriteBatchedStatements=true","ce_link_medium",pro)
-
-
-
   }
-
 }

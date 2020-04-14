@@ -29,6 +29,6 @@ object wordCount {
 
     result.print()
 
+    env.execute("action")
   }
-
 }
